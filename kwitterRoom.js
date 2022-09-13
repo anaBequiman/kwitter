@@ -1,14 +1,15 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyDogkkvB5AhJLCxS-UEQyskUss1MOtdvzc",
-  authDomain: "kwitter-d8b64.firebaseapp.com",
-  databaseURL: "https://kwitter-d8b64-default-rtdb.firebaseio.com",
-  projectId: "kwitter-d8b64",
-  storageBucket: "kwitter-d8b64.appspot.com",
-  messagingSenderId: "384317178731",
-  appId: "1:384317178731:web:f8efa4d09d9c35b4f8c22e"
+  apiKey: "AIzaSyA9wSnQL5tDnDqqnqni_iBV8Zm8v8YS46M",
+  authDomain: "kwitter-3ed30.firebaseapp.com",
+  databaseURL: "https://kwitter-3ed30-default-rtdb.firebaseio.com",
+  projectId: "kwitter-3ed30",
+  storageBucket: "kwitter-3ed30.appspot.com",
+  messagingSenderId: "66469456980",
+  appId: "1:66469456980:web:f5c648fc84e54e1bfa91c1"
 };
-
+// Initialize Firebase
 firebase.initializeApp(firebaseConfig);
+
 var nomeDoUsuario = localStorage.getItem("userName");
 document.getElementById("nameUsuario").innerHTML = "Bem vindo(a) " + nomeDoUsuario + "!";
 
